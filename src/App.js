@@ -1,12 +1,8 @@
-import React , {Component} from 'react';
-import EventPractice from './EventPractice';
+import React from 'react';
+import Say from './Say';
 
-class App extends Component{
-  render(){
-    return (
-      <EventPractice/>
-    );
-  }
+const App = () => {
+  return <Say />
 }
 
 export default App;
